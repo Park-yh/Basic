@@ -1,3 +1,4 @@
+package calculator2;
 
 import java.util.List;
 import java.util.Scanner;
@@ -26,7 +27,7 @@ public class App {
             System.out.print("사칙연산 기호를 입력하세요 (+, -, *, /): ");
             char operator = sc.next().charAt(0);
 
-            double result calculator.calculate(firstNumber, secondNumber, operator);
+            double result = calculator.calculate(firstNumber, secondNumber, operator);
 
             System.out.println("결과: " + result);
 
